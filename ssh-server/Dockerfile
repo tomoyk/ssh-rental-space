@@ -7,6 +7,8 @@ ENV SSH_PASSWORD      L1nuxCLU8
 ENV SSH_PORT          22
 ENV MAX_SESSION       3
 ENV PERMIT_ROOT_LOGIN no
+ENV SYSLOG_SERVER     172.17.0.2
+ENV SYSLOG_PORT       514
 ENV TZ                Asia/Tokyo
 
 RUN apk update && \

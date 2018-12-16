@@ -2,7 +2,6 @@
 
 SSH_CONF="/etc/ssh/sshd_config"
 SSH_HOST=$(ifconfig eth0 | grep inet\ addr | awk '{print $2}' | cut -f2 -d':')
-SYSLOG_SERVER="172.17.0.3"
 
 echo -e "\n===== CHANGE RSYSLOG CONF ====="
 echo "*.*@${SYSLOG_SERVER}:514" >> /etc/rsyslog.conf

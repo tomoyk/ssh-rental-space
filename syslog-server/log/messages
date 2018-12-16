@@ -1,0 +1,47 @@
+2018-12-15T22:52:51.514904+09:00 common-syslog rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-15T22:52:51.514932+09:00 common-syslog rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-15T22:52:51.514951+09:00 common-syslog rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-15T22:52:51.514979+09:00 common-syslog rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-15T13:53:57+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-15T13:53:57+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-15T13:53:57+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-15T13:53:57+09:00 circleA sshd[26]: Server listening on 0.0.0.0 port 11122.
+2018-12-15T13:55:37+09:00 circleA sshd[30]: Accepted password for sshuser from 172.17.0.4 port 34388 ssh2
+2018-12-15T13:56:06+09:00 circleA sshd[32]: Received disconnect from 172.17.0.4 port 34388:11: disconnected by user
+2018-12-15T13:56:06+09:00 circleA sshd[32]: Disconnected from user sshuser 172.17.0.4 port 34388
+2018-12-15T13:56:06+09:00 circleA rsyslogd: Child 25 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-15T13:56:06+09:00 circleA rsyslogd: Child 32 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-15T13:56:10+09:00 circleA sshd[35]: Failed password for sshuser from 172.17.0.4 port 34390 ssh2
+2018-12-15T13:56:18+09:00 circleA sshd[35]: Failed password for sshuser from 172.17.0.4 port 34390 ssh2
+2018-12-15T13:56:18+09:00 circleA sshd[35]: Failed password for sshuser from 172.17.0.4 port 34390 ssh2
+2018-12-15T13:56:18+09:00 circleA sshd[35]: Connection closed by authenticating user sshuser 172.17.0.4 port 34390 [preauth]
+2018-12-15T13:56:18+09:00 circleA rsyslogd: Child 36 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-15T13:56:21+09:00 circleA sshd[37]: Failed password for sshuser from 172.17.0.4 port 34392 ssh2
+2018-12-15T13:56:22+09:00 circleA sshd[37]: Failed password for sshuser from 172.17.0.4 port 34392 ssh2
+2018-12-15T13:56:22+09:00 circleA sshd[37]: Failed password for sshuser from 172.17.0.4 port 34392 ssh2
+2018-12-15T13:56:22+09:00 circleA sshd[37]: Connection closed by authenticating user sshuser 172.17.0.4 port 34392 [preauth]
+2018-12-15T13:56:22+09:00 circleA rsyslogd: Child 38 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-15T13:56:29+09:00 circleA sshd[39]: Failed password for sshuser from 172.17.0.4 port 34394 ssh2
+2018-12-15T13:56:33+09:00 circleA sshd[39]: Accepted password for sshuser from 172.17.0.4 port 34394 ssh2
+2018-12-15T23:12:50.182678+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-15T14:13:56+09:00 circleA rsyslogd: -- MARK --
+2018-12-15T23:32:48.933125+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-15T14:33:54+09:00 circleA rsyslogd: -- MARK --
+2018-12-15T23:52:47.599559+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-15T14:53:53+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T00:12:46.314195+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-15T15:13:52+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T00:32:45.062686+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-15T15:33:51+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T00:52:43.782088+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-15T15:53:49+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T01:12:42.544696+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-15T16:13:48+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T01:32:41.251455+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-15T16:33:49+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T11:00:43.468934+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-16T02:01:49+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T11:20:42.173108+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-16T02:21:48+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T11:40:40.873605+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-16T02:41:46+09:00 circleA rsyslogd: -- MARK --
