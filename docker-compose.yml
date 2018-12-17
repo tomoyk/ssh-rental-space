@@ -1,0 +1,27 @@
+version: '3'
+services:
+  
+  ssh-server1:
+    container_name: circleA
+    hostname: circleA
+    image: ssh-server:latest
+    restart: always
+    environment:
+      - SSH_USER=sshuser
+      - SSH_PASSWORD=Password1
+      - SSH_PORT=10022
+      - SYSLOG_SERVER=syslog-server
+    volumes:
+      - ./www-data:/www-data/public_html
+    depends_on:
+      - syslog-server
+    ports:
+      - 10022
+
+  syslog-server:
+    container_name: common-syslog
+    image: syslog-server:latest
+    restart: always
+    volumes:
+      - ./log:/var/log
+
