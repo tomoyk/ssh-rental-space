@@ -8,4 +8,3 @@ docker run -it \
 -e SYSLOG_SERVER="172.17.0.2" \
 -v $PWD/www-data:/www-data \
 ssh-server
-

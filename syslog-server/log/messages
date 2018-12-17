@@ -77,3 +77,30 @@
 2018-12-16T08:31:58+09:00 circleA rsyslogd: -- MARK --
 2018-12-16T17:50:51.171011+09:00 common-syslog rsyslogd: -- MARK --
 2018-12-16T08:51:57+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T18:10:49.892568+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-16T09:11:56+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T19:10:31.699942+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-16T11:38:42+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T21:45:23.716827+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-16T12:46:30+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T22:05:22.443950+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-16T13:06:28+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T22:25:21.196222+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-16T13:26:27+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T22:45:19.912531+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-16T13:46:26+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T23:05:18.619439+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-16T14:06:24+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T14:17:30+09:00 circleA sshd[41]: Received disconnect from 172.17.0.4 port 34394:11: disconnected by user
+2018-12-16T14:17:30+09:00 circleA sshd[41]: Disconnected from user sshuser 172.17.0.4 port 34394
+2018-12-16T14:17:30+09:00 circleA rsyslogd: Child 41 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-16T14:19:29+09:00 circleA sshd[50]: Accepted password for sshuser from 172.17.0.4 port 34400 ssh2
+2018-12-16T14:19:40+09:00 circleA sshd[52]: Received disconnect from 172.17.0.4 port 34400:11: disconnected by user
+2018-12-16T14:19:40+09:00 circleA sshd[52]: Disconnected from user sshuser 172.17.0.4 port 34400
+2018-12-16T14:19:40+09:00 circleA rsyslogd: Child 52 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-16T23:25:17.333752+09:00 common-syslog rsyslogd: -- MARK --
+2018-12-16T14:26:23+09:00 circleA rsyslogd: -- MARK --
+2018-12-16T23:35:17.040997+09:00 common-syslog rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-16T23:35:17.041050+09:00 common-syslog rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-16T23:35:17.041076+09:00 common-syslog rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-16T23:35:17.041102+09:00 common-syslog rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start

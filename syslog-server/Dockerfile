@@ -6,6 +6,7 @@ RUN apk update && \
     apk add tzdata bash rsyslog && \
     : "Configure timezone" && \
     cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime && \
+    echo "Asia/Tokyo" > /etc/timezone && \
     apk del tzdata && \
     rm -rf /var/cache/apk/* 
 

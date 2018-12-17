@@ -9,12 +9,11 @@ ENV MAX_SESSION       3
 ENV PERMIT_ROOT_LOGIN no
 ENV SYSLOG_SERVER     172.17.0.2
 ENV SYSLOG_PORT       514
-ENV TZ                Asia/Tokyo
 
-RUN apk update && \
-    apk add openssh openssh-sftp-server bash tzdata rsyslog && \
+RUN apk add --update --no-cache openssh openssh-sftp-server bash tzdata rsyslog && \
     : "Configure timezone" && \
     cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime && \
+    echo "Asia/Tokyo" > /etc/timezone && \
     apk del tzdata && \
     rm -rf /var/cache/apk/* 
 
