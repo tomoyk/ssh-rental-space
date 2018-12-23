@@ -17,7 +17,7 @@ sed -i -e "s|#Banner none|Banner /etc/ssh/sshd_banner|g" $SSH_CONF
 
 echo -e "\n===== ADD SSH USER ====="
 mkdir /www-data/public_html
-adduser -h /www-data -s /bin/bash -D ${SSH_USER}
+adduser -h /www-data -s /bin/sh -D ${SSH_USER}
 chown ${SSH_USER}:${SSH_USER} /www-data
 
 echo -e "\n===== SET SSH PASSWORD ====="

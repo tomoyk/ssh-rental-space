@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 services:
   
   ssh-server1:
@@ -15,22 +15,13 @@ services:
       - ./www-data:/www-data/public_html
     depends_on:
       - syslog-server
-    deploy:
-      resources:
-        limits:
-          cpus: '0.50'
-          memory: 50M
-        reservations:
-          cpus: '0.25'
-          memory: 20M
-
-    # cpu_percent: 50
-    # cpu_shares: 73
-    # cpu_quota: 50000
-    # cpuset: 0,1
-
     ports:
       - 10022
+    # cpu_count: 1
+    # cpu_percent: 10
+    cpu_shares: 10
+    mem_limit: 20m
+    memswap_limit: 40m
 
   syslog-server:
     container_name: common-syslog

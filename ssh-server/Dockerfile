@@ -10,7 +10,7 @@ ENV PERMIT_ROOT_LOGIN no
 ENV SYSLOG_SERVER     172.17.0.2
 ENV SYSLOG_PORT       514
 
-RUN apk add --update --no-cache openssh openssh-sftp-server bash tzdata rsyslog && \
+RUN apk add --update --no-cache openssh openssh-sftp-server tzdata rsyslog && \
     : "Configure timezone" && \
     cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime && \
     echo "Asia/Tokyo" > /etc/timezone && \

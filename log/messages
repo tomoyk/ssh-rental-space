@@ -119,3 +119,242 @@
 2018-12-17T14:18:50.701253+09:00 ed41f476e18e rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
 2018-12-17T14:18:50.701256+09:00 ed41f476e18e rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
 2018-12-17T14:18:50.701263+09:00 ed41f476e18e rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-20T23:31:59.965767+09:00 d6e1db68e503 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-20T23:31:59.965830+09:00 d6e1db68e503 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-20T23:31:59.965863+09:00 d6e1db68e503 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-20T23:31:59.965895+09:00 d6e1db68e503 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-20T23:32:01+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-20T23:32:01+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-20T23:32:01+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-20T23:32:01+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-20T23:33:21+09:00 circleA sshd[31]: Accepted password for sshuser from 172.21.0.2 port 56458 ssh2
+2018-12-20T23:34:06+09:00 circleA sshd[33]: Received disconnect from 172.21.0.2 port 56458:11: disconnected by user
+2018-12-20T23:34:06+09:00 circleA sshd[33]: Disconnected from user sshuser 172.21.0.2 port 56458
+2018-12-20T23:34:06+09:00 circleA rsyslogd: Child 26 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-20T23:34:06+09:00 circleA rsyslogd: Child 33 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-20T23:51:58.641513+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-20T23:52:00+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T00:53:46.252020+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T00:53:47+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T01:13:44.992096+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T01:13:46+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T01:33:43.747333+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T01:33:45+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T01:53:42.484116+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T01:53:43+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T02:13:41.163562+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T02:13:42+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T02:33:39.902940+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T02:33:41+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T02:53:38.609041+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T02:53:40+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T03:13:37.326092+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T03:13:38+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T03:33:36.065440+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T03:33:37+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T03:53:34.800356+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T03:53:36+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T04:13:33.458145+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T04:13:35+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T04:33:32.224146+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T04:33:33+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T04:53:30.907997+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T04:53:32+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T05:13:29.658780+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T05:13:31+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T05:33:28.320976+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T05:33:30+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T05:53:27.074254+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T05:53:28+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T06:13:25.740431+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T06:13:27+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T06:33:24.450898+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T06:33:26+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T06:53:23.144835+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T06:53:25+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T07:13:21.801096+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T07:13:23+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T07:33:20.457539+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T07:33:22+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T07:53:19.199735+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T07:53:21+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T08:13:17.960398+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T08:13:19+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T08:33:16.641621+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T08:33:18+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T13:48:45.587714+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T13:48:47+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T17:53:15.941702+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T17:53:17+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T18:57:19.067073+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T18:57:21+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T19:17:17.830508+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T19:17:19+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T19:37:16.530817+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T19:37:18+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T19:57:15.251407+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T19:57:17+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T20:17:13.928128+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T20:17:15+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T20:37:12.668231+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T20:37:14+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T20:57:11.419432+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T20:57:13+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T21:17:10.140231+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T21:17:12+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T21:37:08.808923+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T21:37:10+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T21:57:07.508207+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T21:57:09+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T22:17:06.233185+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T22:17:08+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T22:37:04.978983+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T22:37:07+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T22:57:03.743462+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T22:57:05+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T23:17:02.502481+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T23:17:04+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T23:37:01.258725+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T23:37:03+09:00 circleA rsyslogd: -- MARK --
+2018-12-21T23:56:59.996395+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-21T23:57:01+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T00:56:26.615533+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T00:56:28+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T01:16:25.369736+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T01:16:27+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T01:36:24.038962+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T01:36:25+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T01:56:22.700279+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T01:56:24+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T10:39:19.844599+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T10:39:21+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T12:53:49.449197+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T12:53:51+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T13:13:48.201437+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T13:13:50+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T13:33:46.931739+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T13:33:48+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T13:53:45.650635+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T13:53:47+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T14:13:44.343168+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T14:13:46+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T14:33:43.033489+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T14:33:44+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T14:53:41.751815+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T14:53:43+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T15:13:40.469636+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T15:13:42+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T15:33:39.253869+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T15:33:40+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T15:53:37.948584+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T15:53:39+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T16:13:36.698814+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T16:13:38+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T17:33:55.241732+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T17:33:56+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T17:35:01+09:00 circleA sshd[35]: Accepted password for sshuser from 172.21.0.2 port 56460 ssh2
+2018-12-22T17:35:03+09:00 circleA sshd[37]: Received disconnect from 172.21.0.2 port 56460:11: disconnected by user
+2018-12-22T17:35:03+09:00 circleA sshd[37]: Disconnected from user sshuser 172.21.0.2 port 56460
+2018-12-22T17:35:03+09:00 circleA rsyslogd: Child 37 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-22T17:35:16+09:00 circleA sshd[39]: Accepted password for sshuser from 172.21.0.2 port 56462 ssh2
+2018-12-22T17:36:02+09:00 circleA sshd[41]: Received disconnect from 172.21.0.2 port 56462:11: disconnected by user
+2018-12-22T17:36:02+09:00 circleA sshd[41]: Disconnected from user sshuser 172.21.0.2 port 56462
+2018-12-22T17:36:02+09:00 circleA rsyslogd: Child 41 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-22T17:36:22+09:00 circleA sshd[43]: Failed password for sshuser from 172.21.0.2 port 56464 ssh2
+2018-12-22T17:36:33+09:00 circleA sshd[43]: Failed password for sshuser from 172.21.0.2 port 56464 ssh2
+2018-12-22T17:36:37+09:00 circleA sshd[43]: Accepted password for sshuser from 172.21.0.2 port 56464 ssh2
+2018-12-22T17:53:53.939977+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T17:53:55+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T18:13:52.700204+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T18:13:54+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T21:22:45.049436+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T21:22:46+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T21:42:43.772367+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T21:42:45+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T22:02:42.483361+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T22:02:44+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T22:22:41.221056+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T22:22:42+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T22:42:39.980824+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T22:42:41+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T23:02:38.679100+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T23:02:40+09:00 circleA rsyslogd: -- MARK --
+2018-12-22T23:53:40.382718+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-22T23:53:42+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T00:45:25.523946+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-23T00:45:27+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T02:19:12.710926+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-23T02:19:14+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T09:55:27.247622+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-23T09:55:28+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T10:15:26.007349+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-23T10:15:27+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T12:42:54.887587+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-23T12:42:56+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T13:02:53.615584+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-23T13:02:55+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T13:22:52.346029+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-23T13:22:53+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T13:42:51.055213+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-23T13:42:52+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T14:02:49.715520+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-23T14:02:51+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T14:22:48.468881+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-23T14:22:49+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T14:42:47.218061+09:00 d6e1db68e503 rsyslogd: -- MARK --
+2018-12-23T14:42:48+09:00 circleA rsyslogd: -- MARK --
+2018-12-23T15:34:13.239822+09:00 d6e1db68e503 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-23T15:34:13.239860+09:00 d6e1db68e503 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-23T15:34:13.239898+09:00 d6e1db68e503 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-23T15:34:13.239931+09:00 d6e1db68e503 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-23T15:34:15+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-23T15:34:15+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-23T15:34:15+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-23T15:34:15+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-23T15:36:19+09:00 circleA sshd[30]: Connection closed by 172.21.0.2 port 56490 [preauth]
+2018-12-23T15:36:19+09:00 circleA rsyslogd: Child 25 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:36:19+09:00 circleA rsyslogd: Child 31 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:36:37+09:00 circleA sshd[32]: Connection closed by 172.21.0.2 port 56492 [preauth]
+2018-12-23T15:36:37+09:00 circleA rsyslogd: Child 33 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:36:59+09:00 circleA sshd[34]: Accepted password for sshuser from 172.21.0.2 port 56494 ssh2
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 46 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 48 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 49 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 44 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 47 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 50 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 56 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 53 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 57 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 52 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 55 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 51 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 61 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 43 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 67 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 45 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 54 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 60 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 65 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 70 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 66 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 76 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 68 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 58 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 63 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 71 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 78 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 73 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:37:52+09:00 circleA rsyslogd: Child 69 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-23T15:41:24.332971+09:00 d6e1db68e503 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-23T15:41:24.333044+09:00 d6e1db68e503 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-23T15:41:24.333070+09:00 d6e1db68e503 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-23T15:41:24.333093+09:00 d6e1db68e503 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-23T15:41:25+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-23T15:41:25+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-23T15:41:25+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-23T15:41:25+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-23T15:47:39.731601+09:00 d6e1db68e503 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-23T15:47:39.731606+09:00 d6e1db68e503 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-23T15:47:39.731610+09:00 d6e1db68e503 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-23T15:47:39.731613+09:00 d6e1db68e503 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
