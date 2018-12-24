@@ -1,6 +1,12 @@
 version: '2'
 services:
-  
+  sample-client:
+    container_name: sampleClient
+    image: alpine:3.8
+    command: tail -f /dev/null
+    networks:
+      - ssh-network2
+    
   ssh-server1:
     container_name: circleA
     hostname: circleA
@@ -16,12 +22,12 @@ services:
     depends_on:
       - syslog-server
     ports:
-      - 10022
-    # cpu_count: 1
-    # cpu_percent: 10
+      - 10022:10022
     cpu_shares: 10
     mem_limit: 20m
     memswap_limit: 40m
+    networks:
+      - ssh-network1
 
   syslog-server:
     container_name: common-syslog
@@ -29,4 +35,14 @@ services:
     restart: always
     volumes:
       - ./log:/var/log
+    networks:
+      - ssh-network1
+      - ssh-network2
+
+networks:
+  ssh-network1:
+    external: false
+
+  ssh-network2:
+    external: false
 
