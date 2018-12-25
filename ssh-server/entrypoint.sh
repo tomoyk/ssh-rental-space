@@ -1,4 +1,4 @@
-#!/bin/bash -xe
+#!/bin/sh -xe
 
 SSH_CONF="/etc/ssh/sshd_config"
 SSH_HOST=$(ifconfig eth0 | grep inet\ addr | awk '{print $2}' | cut -f2 -d':')

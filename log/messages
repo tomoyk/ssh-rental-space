@@ -358,3 +358,130 @@
 2018-12-23T15:47:39.731606+09:00 d6e1db68e503 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
 2018-12-23T15:47:39.731610+09:00 d6e1db68e503 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
 2018-12-23T15:47:39.731613+09:00 d6e1db68e503 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T16:09:39.589543+09:00 ac36293794a6 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T16:09:39.589581+09:00 ac36293794a6 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T16:09:39.589613+09:00 ac36293794a6 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T16:09:39.589648+09:00 ac36293794a6 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T16:10:44.861813+09:00 1ca1bbe7cadd rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T16:10:44.861841+09:00 1ca1bbe7cadd rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T16:10:44.861862+09:00 1ca1bbe7cadd rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T16:10:44.861888+09:00 1ca1bbe7cadd rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T16:12:10.641847+09:00 1ca1bbe7cadd rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T16:12:10.641906+09:00 1ca1bbe7cadd rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T16:12:10.641922+09:00 1ca1bbe7cadd rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T16:12:10.641946+09:00 1ca1bbe7cadd rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T16:12:12+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T16:12:12+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T16:12:12+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T16:12:12+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T16:13:39.069510+09:00 1ca1bbe7cadd rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T16:13:39.069534+09:00 1ca1bbe7cadd rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T16:13:39.069558+09:00 1ca1bbe7cadd rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T16:13:39.069585+09:00 1ca1bbe7cadd rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T16:14:07.612656+09:00 c8aaa8fff1c0 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T16:14:07.612673+09:00 c8aaa8fff1c0 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T16:14:07.612691+09:00 c8aaa8fff1c0 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T16:14:07.612722+09:00 c8aaa8fff1c0 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T16:14:09+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T16:14:09+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T16:14:09+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T16:14:09+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T18:55:49.675356+09:00 c8aaa8fff1c0 rsyslogd: -- MARK --
+2018-12-24T18:55:51+09:00 circleA rsyslogd: -- MARK --
+2018-12-24T19:00:33.059391+09:00 c8aaa8fff1c0 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T19:00:33.059449+09:00 c8aaa8fff1c0 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T19:00:33.059479+09:00 c8aaa8fff1c0 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T19:00:33.059505+09:00 c8aaa8fff1c0 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T19:02:01.509165+09:00 c2a857ff084a rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T19:02:01.509195+09:00 c2a857ff084a rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T19:02:01.509222+09:00 c2a857ff084a rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T19:02:01.509268+09:00 c2a857ff084a rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T19:02:02+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T19:02:02+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T19:02:02+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T19:02:02+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T19:02:02+09:00 circleA sshd[27]: Server listening on 0.0.0.0 port 10022.
+2018-12-24T19:22:00.262314+09:00 c2a857ff084a rsyslogd: -- MARK --
+2018-12-24T19:22:01+09:00 circleA rsyslogd: -- MARK --
+2018-12-24T19:41:58.970337+09:00 c2a857ff084a rsyslogd: -- MARK --
+2018-12-24T19:42:00+09:00 circleA rsyslogd: -- MARK --
+2018-12-24T20:01:57.680786+09:00 c2a857ff084a rsyslogd: -- MARK --
+2018-12-24T20:01:58+09:00 circleA rsyslogd: -- MARK --
+2018-12-24T20:17:34.137721+09:00 02baa53a34aa rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T20:17:34.137747+09:00 02baa53a34aa rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T20:17:34.137765+09:00 02baa53a34aa rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T20:17:34.137781+09:00 02baa53a34aa rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T20:17:35+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T20:17:35+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T20:17:35+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T20:17:35+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T20:20:33.424592+09:00 8fb651887571 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T20:20:33.424611+09:00 8fb651887571 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T20:20:33.424637+09:00 8fb651887571 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T20:20:33.424867+09:00 8fb651887571 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T20:20:34+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T20:20:34+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T20:20:34+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T20:20:34+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T20:25:38.994392+09:00 1c42df4951b6 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T20:25:38.994415+09:00 1c42df4951b6 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T20:25:38.994432+09:00 1c42df4951b6 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T20:25:38.994452+09:00 1c42df4951b6 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T20:25:40+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T20:25:40+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T20:25:40+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T20:25:40+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T20:25:40+09:00 circleA sshd[26]: Server listening on 0.0.0.0 port 10022.
+2018-12-24T20:32:43.590309+09:00 1c42df4951b6 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T20:32:43.590383+09:00 1c42df4951b6 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T20:32:43.590776+09:00 1c42df4951b6 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T20:32:43.590863+09:00 1c42df4951b6 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T20:32:44+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T20:32:44+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T20:32:44+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T20:32:44+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T20:32:53+09:00 circleA sshd[31]: Connection closed by 172.29.0.1 port 36270 [preauth]
+2018-12-24T20:32:53+09:00 circleA rsyslogd: Child 26 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-24T20:32:53+09:00 circleA rsyslogd: Child 32 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-24T20:33:00+09:00 circleA sshd[33]: error: maximum authentication attempts exceeded for sshuser from 172.29.0.1 port 36272 ssh2 [preauth]
+2018-12-24T20:33:00+09:00 circleA sshd[33]: Disconnecting authenticating user sshuser 172.29.0.1 port 36272: Too many authentication failures [preauth]
+2018-12-24T20:33:00+09:00 circleA rsyslogd: Child 34 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-24T20:33:22+09:00 circleA sshd[35]: Accepted password for sshuser from 172.29.0.1 port 36274 ssh2
+2018-12-24T20:33:29+09:00 circleA sshd[37]: Received disconnect from 172.29.0.1 port 36274:11: disconnected by user
+2018-12-24T20:33:29+09:00 circleA sshd[37]: Disconnected from user sshuser 172.29.0.1 port 36274
+2018-12-24T20:33:29+09:00 circleA rsyslogd: Child 37 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-24T20:33:35+09:00 circleA sshd[39]: Accepted password for sshuser from 172.29.0.1 port 36276 ssh2
+2018-12-24T20:34:42+09:00 circleA sshd[41]: Received disconnect from 172.29.0.1 port 36276:11: disconnected by user
+2018-12-24T20:34:42+09:00 circleA sshd[41]: Disconnected from user sshuser 172.29.0.1 port 36276
+2018-12-24T20:34:42+09:00 circleA rsyslogd: Child 41 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-24T20:34:46+09:00 circleA sshd[48]: Accepted password for sshuser from 172.29.0.1 port 36278 ssh2
+2018-12-24T20:43:18.781279+09:00 d72f1cead508 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T20:43:18.781334+09:00 d72f1cead508 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T20:43:18.781360+09:00 d72f1cead508 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T20:43:18.781387+09:00 d72f1cead508 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T20:43:20+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T20:43:20+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T20:43:20+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T20:43:20+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T21:03:17.504264+09:00 d72f1cead508 rsyslogd: -- MARK --
+2018-12-24T21:03:19+09:00 circleA rsyslogd: -- MARK --
+2018-12-24T21:23:16.238659+09:00 d72f1cead508 rsyslogd: -- MARK --
+2018-12-24T21:23:17+09:00 circleA rsyslogd: -- MARK --
+2018-12-24T22:53:44.538878+09:00 9490fc0df7b7 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T22:53:44.538912+09:00 9490fc0df7b7 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T22:53:44.538944+09:00 9490fc0df7b7 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T22:53:44.538975+09:00 9490fc0df7b7 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T22:53:45+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-24T22:53:45+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-24T22:53:45+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-24T22:53:45+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-24T23:45:39.099078+09:00 9490fc0df7b7 rsyslogd: -- MARK --
+2018-12-24T23:45:40+09:00 circleA rsyslogd: -- MARK --
+2018-12-25T00:07:09.341178+09:00 9490fc0df7b7 rsyslogd: -- MARK --
+2018-12-25T00:07:10+09:00 circleA rsyslogd: -- MARK --
+2018-12-25T00:27:08.090205+09:00 9490fc0df7b7 rsyslogd: -- MARK --
+2018-12-25T00:27:09+09:00 circleA rsyslogd: -- MARK --
+2018-12-25T00:47:06.833731+09:00 9490fc0df7b7 rsyslogd: -- MARK --
+2018-12-25T00:47:07+09:00 circleA rsyslogd: -- MARK --
+2018-12-25T10:36:41.434178+09:00 9490fc0df7b7 rsyslogd: -- MARK --
+2018-12-25T10:36:42+09:00 circleA rsyslogd: -- MARK --

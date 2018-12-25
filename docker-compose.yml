@@ -1,16 +1,17 @@
 version: '2'
 services:
-  sample-client:
-    container_name: sampleClient
-    image: alpine:3.8
-    command: tail -f /dev/null
-    networks:
-      - ssh-network2
+  # sample-client:
+  #   container_name: sampleClient
+  #   image: alpine:3.8
+  #   command: tail -f /dev/null
+  #   networks:
+  #     - ssh-network2
     
   ssh-server1:
     container_name: circleA
     hostname: circleA
-    image: ssh-server:latest
+    # image: ssh-server:latest
+    build: ssh-server/
     restart: always
     environment:
       - SSH_USER=sshuser
@@ -26,12 +27,23 @@ services:
     cpu_shares: 10
     mem_limit: 20m
     memswap_limit: 40m
+    storage_opt:
+      size: '2G'
+    sysctls:
+      net.core.somaxconn: 1024
+      net.ipv4.tcp_syncookies: 0
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 20000
+        hard: 40000
     networks:
       - ssh-network1
 
   syslog-server:
     container_name: common-syslog
-    image: syslog-server:latest
+    # image: syslog-server:latest
+    build: syslog-server/
     restart: always
     volumes:
       - ./log:/var/log
@@ -41,8 +53,6 @@ services:
 
 networks:
   ssh-network1:
-    external: false
 
   ssh-network2:
-    external: false
 

@@ -26,7 +26,7 @@ ADD ./entrypoint.sh /
 ADD ./motd /etc
 # ADD ./sshd_banner /etc/ssh
 
-CMD /bin/bash /entrypoint.sh && \
+CMD /bin/sh /entrypoint.sh && \
     /bin/rm -f /entrypoint.sh && \
     /usr/sbin/sshd -4 -f /etc/ssh/sshd_config && \
     /usr/sbin/rsyslogd -f /etc/rsyslog.conf -n
