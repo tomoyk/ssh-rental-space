@@ -1,0 +1,58 @@
+version: '2.4'
+services:
+  # sample-client:
+  #   container_name: sampleClient
+  #   image: alpine:3.8
+  #   command: tail -f /dev/null
+  #   networks:
+  #     - ssh-network2
+    
+  ssh-server1:
+    container_name: circleA
+    hostname: circleA
+    # image: ssh-server:latest
+    build: ssh-server/
+    restart: always
+    environment:
+      SSH_USER: sshuser
+      SSH_PASSWORD: Password1
+      SSH_PORT: 10022
+      SYSLOG_SERVER: syslog-server
+    volumes:
+      - ./www-data:/www-data/public_html
+    depends_on:
+      - syslog-server
+    ports:
+      - 10022:10022
+    cpu_shares: 10
+    mem_limit: 20m
+    memswap_limit: 40m
+    # storage_opt:
+    #   size: '2G'
+    sysctls:
+      net.core.somaxconn: 128
+      net.ipv4.tcp_syncookies: 0
+    ulimits:
+      nproc: 512
+      nofile:
+        soft: 2048
+        hard: 2048
+    networks:
+      - ssh-network1
+
+  syslog-server:
+    container_name: common-syslog
+    # image: syslog-server:latest
+    build: syslog-server/
+    restart: always
+    volumes:
+      - ./log:/var/log
+    networks:
+      - ssh-network1
+      - ssh-network2
+
+networks:
+  ssh-network1:
+
+  ssh-network2:
+

@@ -1,58 +1,40 @@
-version: '2'
+networks:
+  ssh-networkX: null
 services:
-  # sample-client:
-  #   container_name: sampleClient
-  #   image: alpine:3.8
-  #   command: tail -f /dev/null
-  #   networks:
-  #     - ssh-network2
-    
-  ssh-server1:
-    container_name: circleA
-    hostname: circleA
-    # image: ssh-server:latest
+  ssh-serverX:
     build: ssh-server/
-    restart: always
-    environment:
-      - SSH_USER=sshuser
-      - SSH_PASSWORD=Password1
-      - SSH_PORT=10022
-      - SYSLOG_SERVER=syslog-server
-    volumes:
-      - ./www-data:/www-data/public_html
-    depends_on:
-      - syslog-server
-    ports:
-      - 10022:10022
+    container_name: circleX
     cpu_shares: 10
+    depends_on: syslog-server
+    environment:
+      SSH_PASSWORD: Password1
+      SSH_PORT: 10022
+      SSH_USER: sshuser
+      SYSLOG_SERVER: syslog-server
+    hostname: circleX
     mem_limit: 20m
-    memswap_limit: 40m
-    storage_opt:
-      size: '2G'
+    memswap_liit: 40m
+    networks:
+    - ssh-networkX
+    ports:
+    - 10022:10022
+    restart: always
     sysctls:
-      net.core.somaxconn: 1024
+      net.core.somaxconn: 128
       net.ipv4.tcp_syncookies: 0
     ulimits:
-      nproc: 65535
       nofile:
-        soft: 20000
-        hard: 40000
-    networks:
-      - ssh-network1
-
+        hard: 2048
+        soft: 2048
+      nproc: 512
+    volumes:
+    - ./www-data:/www-data/public_html
   syslog-server:
-    container_name: common-syslog
-    # image: syslog-server:latest
     build: syslog-server/
+    container_name: common-syslog
+    networks:
+    - ssh-networkX
     restart: always
     volumes:
-      - ./log:/var/log
-    networks:
-      - ssh-network1
-      - ssh-network2
-
-networks:
-  ssh-network1:
-
-  ssh-network2:
-
+    - ./log:/var/log
+version: '2.4'
