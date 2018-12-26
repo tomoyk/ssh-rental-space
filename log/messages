@@ -533,3 +533,35 @@
 2018-12-25T19:52:28+09:00 circleA rsyslogd: -- MARK --
 2018-12-25T20:12:25.825114+09:00 972fa291bd9f rsyslogd: -- MARK --
 2018-12-25T20:12:27+09:00 circleA rsyslogd: -- MARK --
+2018-12-25T22:26:01.492220+09:00 42a9549b0461 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-25T22:26:01.492262+09:00 42a9549b0461 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-25T22:26:01.492296+09:00 42a9549b0461 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-25T22:26:01.492325+09:00 42a9549b0461 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-25T22:26:04+09:00 circleA rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-25T22:26:04+09:00 circleA rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-25T22:26:04+09:00 circleA rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-25T22:26:04+09:00 circleA rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-25T22:26:04+09:00 circleB rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-25T22:26:04+09:00 circleB rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-25T22:26:04+09:00 circleB rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-25T22:26:04+09:00 circleB rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-25T22:26:04+09:00 circleB sshd[29]: Server listening on 0.0.0.0 port 20002.
+2018-12-25T22:26:04+09:00 circleB rsyslogd: Child 25 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-25T22:26:04+09:00 circleC rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-25T22:26:04+09:00 circleC rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-25T22:26:04+09:00 circleC rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-25T22:26:04+09:00 circleC rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2018-12-25T22:27:17+09:00 circleA sshd[32]: Accepted password for user1 from 192.168.32.1 port 60550 ssh2
+2018-12-25T22:27:43+09:00 circleA sshd[34]: Received disconnect from 192.168.32.1 port 60550:11: disconnected by user
+2018-12-25T22:27:43+09:00 circleA sshd[34]: Disconnected from user user1 192.168.32.1 port 60550
+2018-12-25T22:27:43+09:00 circleA rsyslogd: Child 27 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-25T22:27:43+09:00 circleA rsyslogd: Child 34 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-25T22:27:54+09:00 circleB sshd[30]: Accepted password for user2 from 192.168.48.1 port 39086 ssh2
+2018-12-25T22:28:00+09:00 circleB sshd[32]: Received disconnect from 192.168.48.1 port 39086:11: disconnected by user
+2018-12-25T22:28:00+09:00 circleB sshd[32]: Disconnected from user user2 192.168.48.1 port 39086
+2018-12-25T22:28:00+09:00 circleB rsyslogd: Child 32 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-25T22:28:17+09:00 circleC sshd[31]: Accepted password for user3 from 192.168.80.1 port 45390 ssh2
+2018-12-25T22:28:24+09:00 circleC sshd[33]: Received disconnect from 192.168.80.1 port 45390:11: disconnected by user
+2018-12-25T22:28:24+09:00 circleC sshd[33]: Disconnected from user user3 192.168.80.1 port 45390
+2018-12-25T22:28:24+09:00 circleC rsyslogd: Child 26 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-25T22:28:24+09:00 circleC rsyslogd: Child 33 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]

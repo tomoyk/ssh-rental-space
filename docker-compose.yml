@@ -1,23 +1,84 @@
 networks:
-  ssh-networkX: null
+  ssh-network1: null
+  ssh-network2: null
+  ssh-network3: null
 services:
-  ssh-serverX:
+  ssh-server1:
     build: ssh-server/
-    container_name: circleX
+    container_name: circleA
     cpu_shares: 10
-    depends_on: syslog-server
+    depends_on:
+    - syslog-server
     environment:
-      SSH_PASSWORD: Password1
-      SSH_PORT: 10022
-      SSH_USER: sshuser
+      SSH_PASSWORD: pass1
+      SSH_PORT: 20001
+      SSH_USER: user1
       SYSLOG_SERVER: syslog-server
-    hostname: circleX
+    hostname: circleA
     mem_limit: 20m
-    memswap_liit: 40m
+    memswap_limit: 40m
     networks:
-    - ssh-networkX
+    - ssh-network1
     ports:
-    - 10022:10022
+    - 20001:20001
+    restart: always
+    sysctls:
+      net.core.somaxconn: 128
+      net.ipv4.tcp_syncookies: 0
+    ulimits:
+      nofile:
+        hard: 2048
+        soft: 2048
+      nproc: 512
+    volumes:
+    - ./www-data:/www-data/public_html
+  ssh-server2:
+    build: ssh-server/
+    container_name: circleB
+    cpu_shares: 10
+    depends_on:
+    - syslog-server
+    environment:
+      SSH_PASSWORD: pass2
+      SSH_PORT: 20002
+      SSH_USER: user2
+      SYSLOG_SERVER: syslog-server
+    hostname: circleB
+    mem_limit: 20m
+    memswap_limit: 40m
+    networks:
+    - ssh-network2
+    ports:
+    - 20002:20002
+    restart: always
+    sysctls:
+      net.core.somaxconn: 128
+      net.ipv4.tcp_syncookies: 0
+    ulimits:
+      nofile:
+        hard: 2048
+        soft: 2048
+      nproc: 512
+    volumes:
+    - ./www-data:/www-data/public_html
+  ssh-server3:
+    build: ssh-server/
+    container_name: circleC
+    cpu_shares: 10
+    depends_on:
+    - syslog-server
+    environment:
+      SSH_PASSWORD: pass3
+      SSH_PORT: 20003
+      SSH_USER: user3
+      SYSLOG_SERVER: syslog-server
+    hostname: circleC
+    mem_limit: 20m
+    memswap_limit: 40m
+    networks:
+    - ssh-network3
+    ports:
+    - 20003:20003
     restart: always
     sysctls:
       net.core.somaxconn: 128
@@ -33,7 +94,9 @@ services:
     build: syslog-server/
     container_name: common-syslog
     networks:
-    - ssh-networkX
+    - ssh-network1
+    - ssh-network2
+    - ssh-network3
     restart: always
     volumes:
     - ./log:/var/log
