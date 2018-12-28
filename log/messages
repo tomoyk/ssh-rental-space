@@ -565,3 +565,7 @@
 2018-12-25T22:28:24+09:00 circleC sshd[33]: Disconnected from user user3 192.168.80.1 port 45390
 2018-12-25T22:28:24+09:00 circleC rsyslogd: Child 26 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
 2018-12-25T22:28:24+09:00 circleC rsyslogd: Child 33 has terminated, reaped by main-loop. [v8.34.0 try http://www.rsyslog.com/e/0 ]
+2018-12-28T15:41:42.076778+09:00 42a9549b0461 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.34.0 try http://www.rsyslog.com/e/2442 ]
+2018-12-28T15:41:42.076783+09:00 42a9549b0461 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2018-12-28T15:41:42.076787+09:00 42a9549b0461 rsyslogd: activation of module imklog.so failed [v8.34.0 try http://www.rsyslog.com/e/2145 ]
+2018-12-28T15:41:42.076790+09:00 42a9549b0461 rsyslogd:  [origin software="rsyslogd" swVersion="8.34.0" x-pid="1" x-info="http://www.rsyslog.com"] start

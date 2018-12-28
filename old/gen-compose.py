@@ -22,7 +22,7 @@ def main(args):
 
     networks = []
     SYSLOG_CONTAINER = 'syslog-server'
-    
+
     def add_service(SSH_USER = 'sshuser', SSH_PASSWORD = 'Password1', 
                     SSH_LISTEN_PORT = 10022, SERVER_NAME = 'ssh-serverX',
                     CONTAINER_NAME = 'circleX', NETWORK_NAME = 'ssh-networkX',
