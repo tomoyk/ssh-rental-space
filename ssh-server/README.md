@@ -1,33 +1,35 @@
-# docker-ssh-sftp
+# ssh/sftp container
 
-SSHとSFTPを動かすためのコンテナ
+This image provide SSH/SFTP container.
 
-## 使い方
+## Usage
 
-1. ビルドする.
+1. Build image
 ```
-chmod +x ./_build.sh
-./_build.sh
-```
-
-2. 動かす.
-```
-chmod +x ./_run.sh
-./_run.sh
+bash ./_build.sh
 ```
 
-## Note
+2. Run image
+```
+bash ./_run.sh
+```
 
-1. 指定できる値
+## Optional Variables
 
-- `SSH_PORT` : SSHサーバのLISTENするポート
-- `SSH_USER` : SSHに使用するユーザ
-- `SSH_PASSWORD` : SSHに使用するパスワード
+These variables can be defined before running.
 
-2. あらかじめ設定された値
+- `SSH_PORT` : SSH Server listened port (tcp) 
+  - Default: `22/tcp`
+- `SSH_USER` : SSH User to connect
+  - Default: `guest22`
+- `SSH_PASSWORD` : SSH Password to connect
+  - Default: `L1nuxCLU8`
+- `MAX_SESSION` : SSH Maximum session
+  - Default: `3`
+- `PERMIT_ROOT_LOGIN` : Allow to connecting by root account
+  - Default: `no``
+- `SYSLOG\_SERVER` : Log server address to send ssh-log
+  - Default: `172.17.0.2`
+- `SYSLOG\_PORT` : Log server listend udp port
+  - Default: `514/udp`
 
-Dockerfileで初期化しているため、環境変数では指定できない値
-
-- /etc/ssh/sshd_config
-  - `MaxSessions 3`
-  - `PermitRootLogin no`
