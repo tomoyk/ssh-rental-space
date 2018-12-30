@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import sys
+import csv
 import yaml
 from collections import defaultdict
 
@@ -19,27 +19,33 @@ class Compose:
             print('Error:\t Currently supported docker-compose version is 2.x')
             return
 
-    def add_service(self, SSH_USER = 'sshuser', SSH_PASSWORD = 'Password1', 
-                    SSH_LISTEN_PORT = 10022, SERVER_NAME = 'ssh-serverX',
-                    CONTAINER_NAME = 'circleX', NETWORK_NAME = 'ssh-networkX',
-                    HOST_VOLUME_PATH = './www-data'):
-        self.networks.append(NETWORK_NAME)
+    def add_service(self, info = { 
+            'SSH_USER': 'sshuser',
+            'SSH_PASSWORD': 'Password1', 
+            'SSH_CLIENT_PORT': 10022, 
+            'SERVER_NAME': 'ssh-serverX',
+            'CONTAINER_NAME': 'circleX',
+            'NETWORK_NAME': 'ssh-networkX',
+            'HOST_VOLUME_PATH': './www-data' 
+        }):
+
+        self.networks.append( info['NETWORK_NAME'] )
 
         # build container-info
-        self.compose['services'][SERVER_NAME] = {
-            'container_name': CONTAINER_NAME,
-            'hostname': CONTAINER_NAME,
+        self.compose['services'][ info['SERVER_NAME'] ] = {
+            'container_name': info['CONTAINER_NAME'],
+            'hostname': info['CONTAINER_NAME'],
             'build': 'ssh-server/',
             'restart': 'always',
             'environment': {
-                'SSH_USER': SSH_USER,
-                'SSH_PASSWORD': SSH_PASSWORD,
-                'SSH_PORT': SSH_LISTEN_PORT,
+                'SSH_USER': info['SSH_USER'],
+                'SSH_PASSWORD': info['SSH_PASSWORD'],
+                'SSH_PORT': info['SSH_LISTEN_PORT'],
                 'SYSLOG_SERVER': self.SYSLOG_CONTAINER,
             },
-            'volumes': [HOST_VOLUME_PATH + ':/www-data/public_html'],
+            'volumes': [ info['HOST_VOLUME_PATH'] + ':/www-data/public_html'],
             'depends_on': [self.SYSLOG_CONTAINER],
-            'ports': [str(SSH_LISTEN_PORT) + ':' + str(SSH_LISTEN_PORT)],
+            'ports': [ '{SSH_LISTEN_PORT}:{SSH_LISTEN_PORT}'.format(**info) ],
             'cpu_shares': 10,
             'mem_limit': '20m',
             'memswap_limit': '40m',
@@ -54,7 +60,7 @@ class Compose:
                     'hard': 2048,
                 }
             },
-            'networks': [NETWORK_NAME]
+            'networks': [ info['NETWORK_NAME'] ]
         }
 
     def build(self):
@@ -71,24 +77,20 @@ class Compose:
             f.write(yaml.dump(self.compose, default_flow_style=False))
         self.fd.close()
 
+    @classmethod
+    def csv_dump(cls, csv_file = 'container-credentials.csv.sample'):
+        with open(csv_file, 'r') as f:
+            reader = csv.reader(f)
 
-def main(args):
+            labels = []
+            values = []
+            for row in reader:
+                if reader.line_num == 1:
+                    labels = row
+                    continue
 
-    '''
-    # check parameter 
-    if len(args) != 1:
-        print("Error:\t you have to set one parameter")
-        print("Usage:\t ./gen-compose.py [template-yaml-file]")
-        return
-    '''
-
-    comp = Compose()
-    comp.add_service('user1', 'pass1', 20001, 'ssh-server1', 'circleA', 'ssh-network1', './www-data')
-    comp.add_service('user3', 'pass3', 20003, 'ssh-server3', 'circleC', 'ssh-network3', './www-data')
-    comp.build()
-    comp.write()
-
-
-if __name__ == '__main__':
-    main(sys.argv[1:])
+                line = {labels[i]: row[i] for i in range(len(row))}
+                values.append(line)
+            
+            return values
 
