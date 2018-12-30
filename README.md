@@ -1,6 +1,42 @@
 # ssh-rental-space
 
-Docker作るレンタルスペースサービス
+## About
+
+Container based SSH/SFTP rental space
+
+## Requirement
+
+- Python: 3
+- Docker: 17.06 or later
+- Docker-Compose: file format `v2.4` supported
+
+## Usage
+
+1. Edit container's credential on `container-credentials.csv`
+
+Example) `$ vim container-credentials.csv`
+
+```
+SSH_USER,SSH_PASSWORD,SSH_LISTEN_PORT,SERVER_NAME,CONTAINER_NAME,NETWORK_NAME,HOST_VOLUME_PATH
+sshuser1,sshpass1,32201,ssh-server1,circle1,ssh-network1,/var/www/circle1
+sshuser2,sshpass2,32202,ssh-server2,circle2,ssh-network2,/var/www/circle2
+```
+
+**Note)** You should not use space on csv-file.
+
+2. Build `docker-compose.yml` by use of `main.py`
+
+```
+$ python3 main.py
+```
+
+3. Upstart containers by generated docker-compose
+
+```
+$ docker-compose up -d
+```
+
+<!--
 
 ## 概要
 
@@ -11,6 +47,10 @@ Docker作るレンタルスペースサービス
 - [x] コンテナ同士の通信制限
 - [x] コンテナのリソース(RAM, CPU)を制限
 
-イメージ: 
+-->
+
+## Architecture
+
+Some containers is isolated by using docker's custom network. This system is used docker's function of CPU/RAM/STORAGE limitation. 
 
 <img src="https://i.imgur.com/I83bTc8.png" width="400">
