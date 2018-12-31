@@ -1,33 +1,45 @@
+import re
 import sys
 from Compose import Compose
 
-def main(args):
+def arg_to_dict(args):
+    params = {}
+    args = (' ' + ' '.join(args)).split(' -')
+    args = [a for a in args if a] # remove blank elements
 
-    '''
-    # check parameter 
-    if len(args) != 1:
-        print("Error:\t you have to set one parameter")
-        print("Usage:\t ./gen-compose.py [template-yaml-file]")
-        return
-    '''
+    for arg in args:
+        split_arg = arg.split(' ')
+        key = re.sub('^-*', '', split_arg[0])
+        val = ' '.join(split_arg[1:])
+        params[key] = val
+
+    return params
+
+
+def main(args):
+    params = arg_to_dict(args)
+
+    # original source yaml used
+    if 's' in params.keys():
+        comp = Compose(params['s'])
+    else:
+        comp = Compose()
     
-    # set original base-yaml-file
-    # comp = Compose(args[1]) if args[0] == '-s' else Compose()
-    comp = Compose()
-    
-    # create container from csv
-    # credentials = Compose.csv_dump(args[3]) if args[2] == '-c' else Compose.csv_dump()
-    # for c in credentials:
-    for c in Compose.csv_dump():
+    # original credential used
+    if 'c' in params.keys():
+        credentials = Compose.csv_dump(params['c'])
+    else:
+        credentials = Compose.csv_dump()
+    for c in credentials:
         comp.add_service(c)
     
     comp.build()
 
-    # save original yaml-file
-    # if args[4] == '-f':
-    #     comp.write(args[5])
-    # else:
-    comp.write()
+    # original export file used
+    if 'f' in params.keys():
+        comp.write(params['f'])
+    else:
+        comp.write()
 
 
 if __name__ == '__main__':
