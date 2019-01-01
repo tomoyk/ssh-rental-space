@@ -51,7 +51,7 @@ class Compose:
             'memswap_limit': '40m',
             'sysctls': {
                 'net.core.somaxconn': 128,
-                'net.ipv4.tcp_syncookies': 0,
+                # 'net.ipv4.tcp_syncookies': 0,
             },
             'ulimits': {
                 'nproc': 512,

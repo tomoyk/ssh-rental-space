@@ -3,6 +3,7 @@ FROM alpine:3.8
 MAINTAINER Tomoyuki KOYAMA <webmaster@koyama.me>
 
 ENV SSH_USER          guest22
+ENV SSH_USER_UID      2000
 ENV SSH_PASSWORD      L1nuxCLU8
 ENV SSH_PORT          22
 ENV MAX_SESSION       3

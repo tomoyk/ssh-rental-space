@@ -22,6 +22,8 @@ These variables can be defined before running.
   - Default: `22/tcp`
 - `SSH_USER` : SSH User to connect
   - Default: `guest22`
+- `SSH_USER_UID` : SSH User's uid
+  - Default: `2000`
 - `SSH_PASSWORD` : SSH Password to connect
   - Default: `L1nuxCLU8`
 - `MAX_SESSION` : SSH Maximum session
