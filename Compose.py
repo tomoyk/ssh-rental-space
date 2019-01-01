@@ -64,6 +64,9 @@ class Compose:
         }
 
     def build(self):
+        # remove duplicated networks
+        self.networks = list(set(self.networks))
+
         # add container's network to syslog-container's network
         self.compose['services'][self.SYSLOG_CONTAINER]['networks'] = self.networks
 
@@ -78,7 +81,7 @@ class Compose:
         self.fd.close()
 
     @classmethod
-    def csv_dump(cls, csv_file = 'container-credentials.csv.sample'):
+    def csv_dump(cls, csv_file = 'container-credentials.csv'):
         with open(csv_file, 'r') as f:
             reader = csv.reader(f)
 
