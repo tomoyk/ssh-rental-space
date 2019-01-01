@@ -18,6 +18,11 @@ def arg_to_dict(args):
 
 def main(args):
     params = arg_to_dict(args)
+    
+    # help
+    if 'h' in params.keys():
+        print("Usage: main.py [-s base-yaml-file] [-c credetial-csv] [-o output-yaml-file]")
+        return
 
     # original source yaml used
     if 's' in params.keys():
@@ -36,8 +41,8 @@ def main(args):
     comp.build()
 
     # original export file used
-    if 'f' in params.keys():
-        comp.write(params['f'])
+    if 'o' in params.keys():
+        comp.write(params['o'])
     else:
         comp.write()
 
