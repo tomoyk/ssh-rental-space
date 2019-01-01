@@ -7,6 +7,7 @@ Container based SSH/SFTP rental space
 ## Requirement
 
 - Python: 3
+  - package: `pyyaml`
 - Docker: 17.06 or later
 - Docker-Compose: file format `v2.4` supported
 
@@ -28,6 +29,11 @@ sshuser2,sshpass2,32202,ssh-server2,circle2,ssh-network2,/var/www/circle2
 
 ```
 $ python3 main.py
+```
+
+On error, You would like to install `pyyaml` packaege.
+```
+ModuleNotFoundError: No module named 'yaml'
 ```
 
 3. Upstart containers by generated docker-compose
