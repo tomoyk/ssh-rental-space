@@ -59,5 +59,6 @@ $ docker-compose up -d
 
 Some containers is isolated by using docker's custom network. This system is used docker's function of CPU/RAM/STORAGE limitation. 
 
-<img src="https://i.imgur.com/SB96roH.png" width="400">
+<!-- img src="https://i.imgur.com/SB96roH.png" width="400" -->
 
+<img src="https://raw.githubusercontent.com/tomoyk/ssh-rental-space/master/architecture.png" width="700">
