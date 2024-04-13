@@ -2,7 +2,7 @@
 
 ## About
 
-Container based SSH/SFTP rental space
+This program provides container-based SSH/SFTP rental space with a multi-tenant system.
 
 ## Requirement
 
