@@ -57,7 +57,7 @@ $ docker-compose up -d
 
 ## Architecture
 
-Some containers is isolated by using docker's custom network. This system is used docker's function of CPU/RAM/STORAGE limitation. 
+Some containers are isolated by using docker's custom network. This system limits CPU/RAM/STORAGE capacity using Docker feature. 
 
 <!-- img src="https://i.imgur.com/SB96roH.png" width="400" -->
 
